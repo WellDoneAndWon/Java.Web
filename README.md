@@ -1,2 +1,2 @@
 # Java. Технологии разработки
-![alt-text](https://ulearn.me/Course/JavaTech,"Ссылка на курс в Ulearn")
+[Ссылка на курс в Ulearn](https://ulearn.me/Course/JavaTech)
