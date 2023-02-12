@@ -7,9 +7,9 @@ public class Post {
     private Integer likes;
     private Date creationDate;
 
-    public Post(String text, Date creationDate) {
+    public Post(String text) {
         this.text = text;
-        this.creationDate = creationDate;
+        creationDate = new Date();
     }
 
     public String getText() {
