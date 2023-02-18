@@ -19,31 +19,30 @@ public class Post {
         return text;
     }
 
-    public Integer getLikes() {
-        return likes;
+    public void setText(String text) {
+        this.text = text;
     }
 
-    public Date getCreationDate() {
-        return creationDate;
+    public Integer getLikes() {
+        return likes;
     }
 
     public void setLikes(Integer likes) {
         this.likes = likes;
     }
 
-    public void setText(String text) {
-        this.text = text;
+    public Date getCreationDate() {
+        return creationDate;
     }
 
     public void setCreationDate(Date creationDate) {
         this.creationDate = creationDate;
     }
 
-    public void setId(long id) {
-        this.id = id;
-    }
-
     public long getId() {
         return id;
+    }
+    public void setId(long id) {
+        this.id = id;
     }
 }
