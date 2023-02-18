@@ -7,6 +7,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.*;
 
 @Controller
 public class PostsCreateController {
@@ -15,7 +16,7 @@ public class PostsCreateController {
 
     @RequestMapping(path = "/new", method = RequestMethod.GET)
     public String create(Model model){
-        model.addAttribute("appName", "Мое супер приложение");
+        model.addAttribute("appName", "Новый пост");
         return "create";
     }
     @RequestMapping(path = "/new", method = RequestMethod.POST)
